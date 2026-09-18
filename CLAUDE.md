@@ -7,12 +7,9 @@ Core concept: academic institutions get consistency in how their curricula are r
 ## Current status (update this section as work progresses)
 
 - Vite + React + TS + Tailwind 4 + React Flow scaffold is built and working (`src/App.tsx` renders a hardcoded 2-semester CS chart from `src/data/sampleChart.ts`). Verified: type-checks clean, Vite compiles without errors. Not yet visually confirmed in a real browser (no browser tool was available in that session — user needs to open `http://localhost:5173` and confirm).
-- Git repo initialized locally on `main`. **Nothing committed yet.**
-- In progress: connecting GitHub + Vercel + the `charticulum.com` domain.
-  - Vercel CLI installed as a local dev dependency (run via `npx vercel`) — done, no sudo needed.
-  - GitHub CLI (`gh`) — NOT yet installed (needs `sudo pacman -S github-cli`, requires the user's password, so the assistant can't run it).
-  - Neither `gh auth login` nor `npx vercel login` has been run yet — both need the user to complete a browser-based login step.
-  - Once both are authenticated, remaining steps: create the GitHub repo + push, `vercel link`/`vercel` to connect the project, then configure the `charticulum.com` domain in Vercel's dashboard and update DNS at the registrar.
+- Git repo on `main`, pushed to the private GitHub repo https://github.com/checkeredblanket/Charticulum (one initial commit). `gh` is installed and logged in; git identity is not set in config, so commits need `git -c user.name="checkb" -c user.email="thecheckeredblanket@proton.me" commit ...` unless the user sets it globally.
+- Vercel CLI is a local dev dependency (`npx vercel`) and is logged in as `thecheckeredblanket`.
+- Remaining: `vercel link` / first deploy connected to the GitHub repo, then add the `charticulum.com` domain in Vercel and update DNS at the registrar (need to ask the user which registrar).
 - Hosting decision: Vercel only, end-to-end (frontend, serverless API, and Postgres via Vercel's own Postgres/storage product) — user explicitly declined pairing with a separate third-party DB provider like Neon directly.
 
 ## Foundational systems (full vision — not all in MVP scope, see below)
