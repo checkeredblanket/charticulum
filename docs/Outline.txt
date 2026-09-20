@@ -1,0 +1,33 @@
+# CHARTICULUM(Chart Your Curriculum)
+-> ‘The Visual Academic Planner’
+-> https://charticulum.com
+
+-> Ensuring consistency throughout academic institutions while enabling students to visualize their academic future.
+
+# FOUNDATIONS
+-> Objects(‘courses,’ ‘classes,’ etc..) with attributes(o_a system).
+-> o_a system:
+    Object’s units, dependents(pre. reqs., concurrents) equivalents(mutually exclusive), availability, category satisfier(gen. ed., department).
+-> charts(flowcharts) with required Objects and satisfactions by scope(r_o_s_s system).
+-> r_o_s_s system:
+    global Objects and satisfactions are required in every chart,
+    local Objects and satisfactions are required and vary within charts.
+-> version control(v_c system):
+    charts:
+		branches for concentrations/focus or different providers,
+        r_o_s_s enforcement from masters to forks,
+        r_o_s_s merging from masters when forking(for combining charts).
+    user management system:
+	    ..loading
+-> Institution integration:
+	web embeddability,
+    cross institution Object transferability in chart r_o_s_s via equivalency.
+
+# FUNCTIONS
+-> chart_builder with o_a and r_o_s_s enforcement.
+-> chart_visualizer(interactive) to visualize charts(based on chart_builder), together = chart_engine.
+-> chart_styles within the chart_renderer for consistent styling within institutions.
+-> chart_ai(customizable chatbot) with o_a,  r_o_s_s, v_c, and chart_engine integration to:
+    compare Objects and charts,
+    fetch academic information,
+    generate charts.
