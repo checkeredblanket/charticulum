@@ -1,2 +1,2 @@
-# Charticulum
-..loading
+### Charticulum
+"The Visual Curriculum Planner"
