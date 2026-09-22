@@ -12,7 +12,7 @@ function App() {
           {showModal ? 'Close' : 'Get Started'}
         </button>
       </main>
-      <footer>@ 2026 Charticulum. All rights reserved.</footer>
+      <footer>Copyright @ 2026 Charticulum. All rights reserved.</footer>
     </div>
   )
 }
