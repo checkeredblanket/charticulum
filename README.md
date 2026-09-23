@@ -1,2 +1,3 @@
-## Charticulum(_Chart Your Curriculum_)
-'The Visual Academic Planner'
+### Charticulum<br />
+- _Chart Your Curriculum_<br />
+'The Visual Academic Planner
