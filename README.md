@@ -1,2 +1,2 @@
-### Charticulum
-_Chart Your Curriculum. See how it all fits together._
+## Charticulum(_Chart Your Curriculum_)
+'The Visual Academic Planner'

@@ -8,7 +8,7 @@ function App() {
       <header>Charticulum</header>
       <main>
         <h1>Chart Your Curriculum</h1>
-        <p>The Visual Academic Planner</p>
+        <p>See how it all fits together.</p>
         <button onClick={() => setShowModal(!showModal)}>
           {showModal ? 'Close' : 'Get Started'}
         </button>
